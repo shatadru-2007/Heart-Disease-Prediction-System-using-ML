@@ -1,4 +1,5 @@
 Open the project directory in VS Code and check if it has the following
+
   i) A dataset named “heart.csv” 
   ii) A python file named “ml_model.py” (this code fetches data from the dataset, trains the ML model and dumps the data in 2 files named as “model.pkl” and “scaler.pkl”)
   iii) A python file named “web_app.py” (this code fetches data from the 2 .pkl files and connects with Flask server
