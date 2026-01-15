@@ -24,3 +24,4 @@ Open the web page by going to the displayed URL.
 
 Enter all details in the form of the web page and click on “GET PREDICTION” button to view the prediction.
 
+The video of executing these steps to run the project has also been uploaded
