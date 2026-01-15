@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head> 
+<body>
+
+<h2>Heart Disease Prediction System</h2>
+
+<form method="POST"> 
+    <input name="age" placeholder="Age" required>
+    <input name="sex" placeholder="Sex (1=Male, 0=Female)" required>
+    <input name="cp" placeholder="Chest Pain Type (0/1/2/3)" required>
+    <input name="trestbps" placeholder="Resting Blood Pressure" required>
+    <input name="chol" placeholder="Serum Cholesterol" required>
+    <input name="fbs" placeholder="Fasting Blood Sugar" required>
+    <input name="restecg" placeholder="Resting ECG Result" required>
+    <input name="thalach" placeholder="Maximum Heart Rate" required>
+    <input name="exang" placeholder="Exercise induced Angina Result" required>
+    <input name="oldpeak" placeholder="ST Depression" required>
+    <input name="slope" placeholder="Slope" required>
+    <input name="ca" placeholder="Number of major vessels colored" required>
+    <input name="thal" placeholder="Thallium Stress Test Result " required>
+
+    <button type="submit">GET PREDICTION</button>
+</form>
+
+{% if prediction %}
+<h3>{{ prediction }}</h3>
+{% endif %}
+
+</body>
+</html>

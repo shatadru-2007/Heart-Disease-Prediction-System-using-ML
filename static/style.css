@@ -1,0 +1,41 @@
+head {
+    font-family: Arial;
+    color: #0d3569;
+}
+
+h2 {
+    color: #0d3569;
+}
+
+body {
+    background-image: url("/static/heart_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+    text-align: left;
+}
+
+form {
+    background: rgb(146, 187, 221);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0d3569;
+}
+
+input {
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    width: 275px;
+}
+
+button {
+    padding: 10px 90px;
+    background: #0d3569;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
